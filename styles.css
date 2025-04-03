@@ -1,0 +1,6 @@
+body {
+  background-image: url('fahri.jpg'); /* Ganti dengan URL gambar latar belakang Anda */
+      background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+      background-position: center; /* Mengatur posisi gambar di tengah */
+    }
+}
