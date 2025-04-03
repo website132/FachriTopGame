@@ -1,7 +1,7 @@
 /* Style untuk desktop */
 body {
   background-image: url('fahri.jpg');
-  height: 100vh;
-  width: 100vw;
-  height: 100vh;
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
 }
