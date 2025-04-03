@@ -1,17 +1,7 @@
 /* Style untuk desktop */
 body {
   background-image: url('fahri.jpg');
-  background-size: cover;
-  background-position: center;
   height: 100vh;
-}
-
-/* Style untuk mobile */
-@media (max-width: 768px) {
-  body {
-    background-image: url('fahri.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
+  width: 100vw;
+  height: 100vh;
 }
