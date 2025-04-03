@@ -1,20 +1,70 @@
-body {
-    background: linear-gradient(45deg, red, yellow, green, blue, purple);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-    height: 100vh;
+/* Reset */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #5bfb45, #238800);
+    color: white;
+    text-align: center;
 }
 
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    margin: 20px 0;
+}
+
+.header img {
+    width: 100px; /* Atur ukuran logo sesuai kebutuhan */
+}
+
+/* Judul */
+.title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Deskripsi */
+.description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Gambar Game */
+.game-images {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.game-images img {
+    width: 150px; /* Atur ukuran gambar sesuai kebutuhan */
+    margin: 0 10px;
+}
+
+/* Tombol */
+.button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #555;
+}
